@@ -15,9 +15,19 @@ def charts():
 
 # for file_name in files_in_folder:
 #     file_path = os.path.join(folder_path, file_name)
-    file_path= os.getcwd()+'template_2023'+'source/'
-    if os.path.exists(file_path):
+    file_path= os.getcwd()+'\\template_2023\\'+'source\\'
+    # file_path= os.getcwd()+'\\template_2023\\'+'source\\'+'most_runs.html'
+    print(file_path)
 
+    # os.mkdir(file_path.split("most_runs.html")[0])
+    if not os.path.exists(file_path):
+        os.mkdir(file_path)
+
+    contains_html_file = any(filename.endswith('.html') for filename in os.listdir(file_path))
+
+    if not contains_html_file:
+    # if os.path.exists(file_path.split("most_runs.html")[0]):
+                
         print("\n Generataing plots....")
         # %%
         with duckdb.connect("ipl_cric.duckdb") as conn:
