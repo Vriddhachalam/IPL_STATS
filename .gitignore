@@ -1,0 +1,7 @@
+.venv
+__pycache__
+source
+*.duckdb
+*duckdb.wal
+*.zip
+ipl_json

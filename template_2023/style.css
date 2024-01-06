@@ -1,0 +1,612 @@
+body {
+    background-color: #ffffff;
+  }
+
+  h1:hover {
+    font-variation-settings: "wght" 582;
+    letter-spacing: 1px;
+  }
+
+  @media only screen and (min-width: 1000px) and (max-width:1399px) {
+    .forty {
+      height: 30vh;
+      width: 100%;
+      justify-content: center;
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      bottom: -200px;
+
+    }
+
+    .darbg {
+      background-color: #000000;
+      color: white;
+
+    }
+
+    .topnavpng {
+      width: 12%;
+      position: absolute;
+      left: 43%
+    }
+
+
+    h1 {
+      font-size: 120px;
+      text-transform: uppercase;
+      font-family: 'Poppins', sans-serif;
+      letter-spacing: -3px;
+      transition: 700ms ease;
+      font-variation-settings: "wght" 311;
+      margin-bottom: 0.8rem;
+      color: rgb(0, 0, 0);
+      text-align: center;
+      font-size: 50px;
+      font-weight: 1000;
+      /* margin-bottom:- 500px; */
+      margin-top: 50px;
+      /* position:absolute; top:15%; */
+    }
+
+    h7 {
+      /* position:absolute; top:27%; left:33%; */
+      color: rgb(0, 0, 0);
+      font-family: 'Poppins', sans-serif;
+      font-size: 20px;
+      font-weight: 1000;
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    h8 {
+      /* position:absolute; top:27%; left:33%; */
+      color: rgb(0, 0, 0);
+      font-family: 'Poppins', sans-serif;
+      font-size: 20px;
+      font-weight: 1000;
+      text-align: center;
+      margin-top: 30px;
+    }
+
+    #map {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      /* overflow-x: scroll; */
+      float: left;
+      left: -80px;
+      margin-top: -100px;
+      /* margin-bottom: 600px; */
+
+      /* align-items: left; */
+    }
+
+    #schedule {
+      width: 40%;
+      height: 90vh;
+      /* margin-right: 20px; */
+      margin-top: 70px;
+      min-width: 930px;
+      overflow-x: auto;
+      position: relative;
+      /* top: 80%; */
+      float: right;
+      right: -400px;
+    }
+
+    #ipl_title {
+      position: absolute;
+      top: 35%;
+      left: 30%;
+      width: 150%;
+      font-family: Arial;
+      font-size: 1000px;
+      font-weight: 1000;
+      color: rgb(0, 0, 0);
+      font-style: italic;
+
+    }
+
+    .legend text {
+      font-weight: 800;
+      fill: rgb(0, 0, 0);
+      font-size: 18px;
+      text-transform: uppercase;
+      font-family: Poppins, serif;
+      letter-spacing: -1px;
+      transition: 700ms ease;
+      font-variation-settings: "wght" 311;
+      margin-bottom: 0.8rem;
+    }
+
+    .legend text:hover {
+      font-variation-settings: "wght" 582;
+      letter-spacing: 1px;
+      text-shadow: 3px 3px 3px #48ff00;
+    }
+  }
+
+  @media only screen and (min-width: 1400px) and (max-width: 1600px) {
+    .forty {
+      height: 30vh;
+      width: 100%;
+      justify-content: center;
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+
+    }
+
+    .darbg {
+      background-color: #000000;
+      color: white;
+
+    }
+
+    .topnavpng {
+      width: 12%;
+      position: absolute;
+      left: 43%
+    }
+
+
+    h1 {
+      font-size: 120px;
+      text-transform: uppercase;
+      font-family: 'Poppins', sans-serif;
+      letter-spacing: -3px;
+      transition: 700ms ease;
+      font-variation-settings: "wght" 311;
+      margin-bottom: 0.8rem;
+      color: rgb(0, 0, 0);
+      text-align: center;
+      font-size: 50px;
+      font-weight: 1000;
+      /* margin-bottom:- 500px; */
+      margin-top: 50px;
+      /* position:absolute; top:15%; */
+    }
+
+    h7 {
+      /* position:absolute; top:27%; left:33%; */
+      color: rgb(0, 0, 0);
+      font-family: 'Poppins', sans-serif;
+      font-size: 20px;
+      font-weight: 1000;
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    h8 {
+      /* position:absolute; top:27%; left:33%; */
+      color: rgb(0, 0, 0);
+      font-family: 'Poppins', sans-serif;
+      font-size: 20px;
+      font-weight: 1000;
+      text-align: center;
+      margin-top: 30px;
+    }
+
+    #map {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      /* overflow-x: scroll; */
+      float: left;
+      left: -80px;
+      margin-top: -100px;
+
+      /* align-items: left; */
+    }
+
+    #schedule {
+      width: 40%;
+      height: 90vh;
+      /* margin-right: 20px; */
+      margin-top: 70px;
+      min-width: 930px;
+      overflow-x: auto;
+      position: relative;
+      /* top: 80%; */
+      float: right;
+      right: -200px;
+    }
+
+    #ipl_title {
+      position: absolute;
+      top: 35%;
+      left: 30%;
+      width: 150%;
+      font-family: Arial;
+      font-size: 1000px;
+      font-weight: 1000;
+      color: rgb(0, 0, 0);
+      font-style: italic;
+
+    }
+
+    .legend text {
+      font-weight: 800;
+      fill: rgb(0, 0, 0);
+      font-size: 18px;
+      text-transform: uppercase;
+      font-family: Poppins, serif;
+      letter-spacing: -1px;
+      transition: 700ms ease;
+      font-variation-settings: "wght" 311;
+      margin-bottom: 0.8rem;
+    }
+
+    .legend text:hover {
+      font-variation-settings: "wght" 582;
+      letter-spacing: 1px;
+      text-shadow: 3px 3px 3px #48ff00;
+    }
+  }
+
+  /* my pc is around 1770*/
+  @media only screen and (min-width: 1601px) {
+    .forty {
+      height: 30vh;
+      width: 100%;
+      justify-content: center;
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+
+    }
+
+    .darbg {
+      background-color: #000000;
+      color: white;
+
+    }
+
+    .topnavpng {
+      width: 12%;
+      position: absolute;
+      left: 43%
+    }
+
+
+    h1 {
+      font-size: 120px;
+      text-transform: uppercase;
+      font-family: 'Poppins', sans-serif;
+      letter-spacing: -3px;
+      transition: 700ms ease;
+      font-variation-settings: "wght" 311;
+      margin-bottom: 0.8rem;
+      color: rgb(0, 0, 0);
+      text-align: center;
+      font-size: 50px;
+      font-weight: 1000;
+      /* margin-bottom:- 500px; */
+      margin-top: 50px;
+      /* position:absolute; top:15%; */
+    }
+
+    h7 {
+      /* position:absolute; top:27%; left:33%; */
+      color: rgb(0, 0, 0);
+      font-family: 'Poppins', sans-serif;
+      font-size: 20px;
+      font-weight: 1000;
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    h8 {
+      /* position:absolute; top:27%; left:33%; */
+      color: rgb(0, 0, 0);
+      font-family: 'Poppins', sans-serif;
+      font-size: 20px;
+      font-weight: 1000;
+      text-align: center;
+      margin-top: 30px;
+    }
+
+    #map {
+      width: 50%;
+      height: 100%;
+      position: absolute;
+      /* overflow-x: scroll; */
+      float: left;
+      left: 0px;
+      margin-top: -100px;
+
+      /* align-items: left; */
+    }
+
+    #schedule {
+      width: 40%;
+      height: 90vh;
+      /* margin-right: 20px; */
+      margin-top: 70px;
+      min-width: 930px;
+      /* overflow-x: auto; */
+      position: relative;
+      /* top: 80%; */
+      float: right;
+      right: 30px;
+    }
+
+    #ipl_title {
+      position: absolute;
+      top: 35%;
+      left: 30%;
+      width: 150%;
+      font-family: Arial;
+      font-size: 1000px;
+      font-weight: 1000;
+      color: rgb(0, 0, 0);
+      font-style: italic;
+
+    }
+
+    .legend text {
+      font-weight: 800;
+      fill: rgb(0, 0, 0);
+      font-size: 18px;
+      text-transform: uppercase;
+      font-family: Poppins, serif;
+      letter-spacing: -1px;
+      transition: 700ms ease;
+      font-variation-settings: "wght" 311;
+      margin-bottom: 0.8rem;
+    }
+
+    .legend text:hover {
+      font-variation-settings: "wght" 582;
+      letter-spacing: 1px;
+      text-shadow: 3px 3px 3px #48ff00;
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+
+    .forty {
+      height: 20vh;
+      width: 100%;
+      justify-content: center;
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .darbg {
+      background-color: #1b1b1b;
+      color: rgb(255, 255, 255);
+      width: 230%;
+
+
+    }
+
+    .topnavpng {
+      width: 50%;
+      position: absolute;
+      top: 5%;
+      left: 85%;
+
+    }
+
+    h1 {
+      text-transform: uppercase;
+      font-family: 'Poppins', sans-serif;
+      letter-spacing: -3px;
+      transition: 700ms ease;
+      font-variation-settings: "wght" 311;
+      margin-bottom: 0.8rem;
+      color: rgb(0, 0, 0);
+      text-align: center;
+      width: 200%;
+      position: absolute;
+      top: 10%;
+      left: 20%;
+      /* font-family: Arial; */
+      font-size: 45px;
+      font-weight: 1000;
+    }
+
+    h7 {
+      position: absolute;
+      top: 23%;
+      left: 20%;
+      width: 200%;
+      color: rgb(0, 0, 0);
+      font-family: 'Poppins', sans-serif;
+      font-size: 25px;
+      line-height: 1;
+      font-weight: 1000;
+      text-align: center;
+      margin-top: 0px;
+    }
+
+    h8 {
+      position: absolute;
+      top: 33%;
+      left: 20%;
+      width: 200%;
+      color: rgb(0, 0, 0);
+      font-family: 'Poppins', sans-serif;
+      font-size: 25px;
+      line-height: 1;
+      font-weight: 1000;
+      text-align: center;
+      margin-top: -20px;
+    }
+
+    #mainContent {
+      /* margin-top: -200px; */
+      /* position:relative;  left:50%; */
+      justify-content: center;
+      width: 200%;
+    }
+
+    /* Add margin and padding to the mainContent div */
+    #mainContent {
+      margin: 70px;
+      margin-top: 220px;
+      padding: 0px;
+    }
+
+
+
+    #ipl_title {
+      position: absolute;
+      top: 30%;
+      left: 100%;
+      width: 150%;
+      font-family: Poppins, serif;
+      font-size: 18px;
+      font-weight: 1000;
+      color: rgb(0, 0, 0);
+      font-style: italic;
+    }
+
+    .legend text {
+      font-weight: 800;
+      fill: rgb(0, 0, 0);
+      font-size: 18px;
+      text-transform: uppercase;
+      font-family: Poppins, serif;
+      letter-spacing: -1px;
+      transition: 700ms ease;
+      font-variation-settings: "wght" 311;
+      margin-bottom: 0.8rem;
+    }
+
+    .legend text:hover {
+      font-variation-settings: "wght" 582;
+      letter-spacing: 1px;
+      text-shadow: 3px 3px 3px #48ff00;
+    }
+  }
+
+  /* #most_6s {
+position: relative
+;
+top: 100px;
+left: 200px;
+}
+#most_4s {
+position: relative
+float:right;
+top: 100px;
+left: 200px;
+} */
+
+  .container_1 {
+    display: flex;
+  }
+
+
+  #most_6s_4s {
+    flex: 1;
+  }
+
+  /* 
+#most_4s {
+flex: 1;
+} */
+  #most_runs {
+    flex: 1;
+  }
+
+  #HS {
+    flex: 1;
+  }
+
+  #NO {
+    flex: 1;
+  }
+
+  #_50s {
+    flex: 1;
+  }
+
+  #_100s {
+    flex: 1;
+  }
+
+  #bat_sr {
+    flex: 1;
+  }
+
+  #duck {
+    flex: 1;
+  }
+
+  #partnership {
+    flex: 1;
+  }
+
+  #most_wickets {
+    flex: 1;
+  }
+
+  #most_maidens {
+    flex: 1;
+  }
+
+  #ER {
+    flex: 1;
+  }
+
+  #bowl_sr {
+    flex: 1;
+  }
+
+  #_4w {
+    flex: 1;
+  }
+
+  #_5w {
+    flex: 1;
+  }
+
+  #RC {
+    flex: 1;
+  }
+
+  #RCW {
+    flex: 1;
+  }
+
+  #catches {
+    flex: 1;
+  }
+
+  #wkt_perc {
+    flex: 1;
+  }
+
+  #team_points {
+    flex: 1;
+  }
+
+  #team_win_on_game_time {
+    flex: 1;
+  }
+
+  #toss_winner_choice {
+    flex: 1;
+  }
+
+  #mom {
+    flex: 1;
+  }
+
+  #team_max_score {
+    flex: 1;
+  }
+
+  #team_wicket_capabilities {
+    flex: 1;
+  }
+
+  #BWN {
+    flex: 1;
+  }

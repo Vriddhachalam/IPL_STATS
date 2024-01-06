@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+
+  <script src="https://cdn.plot.ly/plotly-2.20.0.min.js" charset="utf-8"></script>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia&effect=fire">
+  <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.deep_orange-amber.min.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia&effect=neon|outline|emboss|shadow-multiple">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rancho&effect=fire-animation|3d-float">
+  <link rel="stylesheet" href='https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100..700&display=swap'>
+  <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+  <style type="text/css">
+  </style>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+
+
+<body>
+  <div id="header">
+    <div class="topnav" style="margin-bottom: 10px;margin-top: 10px;">
+      <a href="/" class="mobcen">
+        <img src="topnav.png" alt="" class="topnavpng">
+      </a>
+    </div>
+    <br>
+    <div style="width: 100%; display: flex; align-items: center; justify-content: center; flex-direction: column;">
+      <h1>Indian Premier League - 2023</h1>
+      <h7>Tap/Hover over plots to see the stats for each player</h7>
+      <h8>Pinch/Box select to zoom in and out plots </h8>
+      <!-- <h9>Use the plotly toolbar to pan,zoom out and  </h9> -->
+    </div>
+    <br>
+    <br>
+  </div>
+
+
+    <div id="mainContent">
+
+      <div class="container_1">
+        <div id="most_6s_4s">Left Div</div>
+        <div id="most_runs">Right Div</div>
+      </div>
+      <!-- <div id="most_6s"></div>
+        <div id="most_4s"></div> -->
+      <!-- <div class="container_1">
+          <div id="most_runs">Left Div</div>
+          <div id="HS">Right Div</div>
+        </div> -->
+
+      <div class="container_1">
+        <div id="_50s">Left Div</div>
+        <div id="_100s">Right Div</div>
+      </div>
+
+      <!-- <div class="container_1">
+          <div id="bat_sr">Left Div</div>
+          <div id="duck">Right Div</div>
+        </div> -->
+
+      <div class="container_1">
+        <div id="duck">Right Div</div>
+        <div id="partnership">Right Div</div>
+      </div>
+
+      <!-- <div id="most_runs"></div> -->
+      <!-- <div id="50s"></div>
+        <div id="100s"></div> -->
+      <!-- <div id="HS"></div> -->
+      <!-- <div id="bat_sr"></div>
+        <div id="duck"></div> -->
+      <!-- <div id="NO"></div>
+        <div id="partnership"></div> -->
+
+
+      <!-- <div id="EB"></div> -->
+
+      <!-- <div id="Total_runs_vs_SR"></div> -->
+
+      <div class="container_1">
+        <div id="most_wickets">Left Div</div>
+        <div id="most_maidens">Right Div</div>
+      </div>
+      <div class="container_1">
+        <div id="BWN">Left Div</div>
+        <div id="bowl_sr">Right Div</div>
+      </div>
+
+      <!-- <div class="container_1">
+          <div id="">Left Div</div>
+          <div id="bowl_sr">Right Div</div>
+        </div> -->
+
+      <div class="container_1">
+        <div id="_4w">Left Div</div>
+        <div id="_5w">Right Div</div>
+      </div>
+
+      <!-- <div class="container_1">
+          <div id="ER">Left Div</div>
+          <div id="RCW">Right Div</div>
+        </div> -->
+
+
+
+      <div class="container_1">
+        <div id="catches">Left Div</div>
+        <div id="wkt_perc">Right Div</div>
+      </div>
+
+      <!-- <div id="most_wickets"></div>
+        <div id="ER"></div> -->
+      <!-- <div id="bowl_sr"></div> -->
+      <!-- <div id="4w"></div>
+        <div id="5w"></div> -->
+      <!-- <div id="RC"></div>
+        <div id="RCW"></div> -->
+      <!-- <div id="most_maidens"></div> -->
+
+      <!-- <div id="catches"></div>
+
+        <div id="wkt_perc"></div> -->
+
+      <!-- <div id="team_most_4s"></div>
+        <div id="team_most_6s"></div> -->
+      <div class="container_1">
+        <div id="team_win_on_game_time">Left Div</div>
+        <div id="toss_winner_choice">Right Div</div>
+      </div>
+
+      <div class="container_1">
+        <div id="team_points">Left Div</div>
+        <div id="mom">Right Div</div>
+      </div>
+
+      <!-- <div id="team_points"></div> -->
+      <div id="team_max_score"></div>
+      <!-- <div id="team_wicket_capabilities"></div>
+        <div id="team_getting_out"></div> -->
+      <!-- <div id="team_win_on_game_time"></div> -->
+
+
+      <!-- <div id="team_points"></div>
+
+        <div id="mom"></div> -->
+      <!-- <div id="toss_winner_choice"></div> -->
+      <!-- <div id="image-container"></div> -->
+
+      <!-- $("#Team Wicket Out Method").load("Team Wicket Out Method.html"); -->
+
+
+    </div>
+  
+  <div id="footer" class="darbg forty" style="height: 10vh !important;">
+    <div class="bottomnav">
+      <a href="/"><img src="bottomnav.png" alt="" class="bottomnavpng"></a>
+    </div>
+    Copyright 2023
+  </div>
+  <!-- </div> -->
+</body>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<script>
+  $(function () {
+    $("#most_6s_4s").load("source/most_6s_4s.html");
+    // $("#most_6s").load("most_6s.html");
+    // $("#most_4s").load("most_4s.html");
+    $("#most_runs").load("source/most_runs.html");
+    $("#_50s").load("source/_50s.html");
+    $("#_100s").load("source/_100s.html");
+    // $("#HS").load("HS.html");
+    $("#bat_sr").load("source/bat_sr.html");
+    $("#Total_runs_vs_SR").load("source/Total_runs_vs_SR.html");
+    $("#most_wickets").load("source/most_wickets.html");
+    // $("#ER").load("ER.html");
+    $("#most_maidens").load("source/most_maidens.html");
+    // $("#bowl_sr").load("bowl_sr.html");
+    $("#_4w").load("source/_4w.html");
+    $("#_5w").load("source/_5w.html");
+    $("#RC").load("source/RC.html");
+    $("#bowl_sr").load("source/bowl_sr.html");
+    // $("#RC").load("RC.html");
+    // $("#RCW").load("RCW.html");
+    // $("#NO").load("NO.html");
+    // $("#EB").load("EB.html");
+    $("#catches").load("source/catches.html")
+    $("#toss_winner_choice").load("source/toss_winner_choice.html");
+    // $("#team_most_4s").load("team_most_4s.html");
+    // $("#team_most_6s").load("team_most_6s.html");
+    $("#team_wicket_capabilities").load("source/team_wicket_capabilities.html");
+    $("#team_points").load("source/team_points.html");
+    $("#team_win_on_game_time").load("source/team_win_on_game_time.html");
+    $("#mom").load("source/mom.html");
+    $("#toss_winner_choice").load("source/toss_winner_choice.html");
+    $("#duck").load("source/duck.html");
+    $("#partnership").load("source/partnership.html");
+    $("#team_max_score").load("source/team_max_score.html");
+    $("#wkt_perc").load("source/wkt_perc.html");
+    $("#BWN").load("source/BWN.html");
+    $("#team_getting_out").load("source/team_getting_out.html");
+  });
+</script>
+
+</html>
